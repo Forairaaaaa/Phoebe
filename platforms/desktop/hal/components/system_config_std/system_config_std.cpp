@@ -15,8 +15,6 @@
 #include <ArduinoJson.h>
 #include <string>
 
-using namespace mooncake;
-
 static const char* _tag = "syscfg";
 
 SystemConfigStd::SystemConfigStd(const std::string& rootPath)

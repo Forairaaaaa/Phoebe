@@ -15,7 +15,6 @@
 
 using namespace widget;
 using namespace widget_helper;
-using namespace mooncake;
 
 int WidgetFactory::create(const char* widgetType)
 {

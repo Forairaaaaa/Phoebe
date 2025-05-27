@@ -19,8 +19,6 @@
 #include <mooncake_log.h>
 #include <lvgl.h>
 
-using namespace mooncake;
-
 void HalDesktop::init()
 {
     lvgl_init();

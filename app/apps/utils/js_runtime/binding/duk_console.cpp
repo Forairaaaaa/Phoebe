@@ -11,8 +11,6 @@
 #include <stdarg.h>
 #include <mooncake_log.h>
 
-using namespace mooncake;
-
 static const std::string _tag = "JS";
 
 /* XXX: Add some form of log level filtering. */

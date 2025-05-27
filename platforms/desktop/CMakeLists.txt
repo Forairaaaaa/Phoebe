@@ -27,10 +27,6 @@ add_subdirectory(dependencies/mooncake)
 set(MOONCAKE_LOG_BUILD_EXAMPLE OFF)
 add_subdirectory(dependencies/mooncake_log)
 
-# Mooncake event
-set(MOONCAKE_EVENT_BUILD_EXAMPLE OFF)
-add_subdirectory(dependencies/mooncake_event)
-
 # Smooth ui shit
 add_subdirectory(dependencies/smooth_ui_toolkit)
 
@@ -58,8 +54,7 @@ add_executable(app_desktop_build ${APP_DESKTOP_BUILD_SRCS} ${APP_LAYER_SRCS})
 target_include_directories(app_desktop_build PUBLIC ${APP_LAYER_INCS})
 target_link_libraries(app_desktop_build PUBLIC 
     mooncake 
-    mooncake_log 
-    mooncake_event 
+    mooncake_log
     lvgl 
     lvgl_examples 
     lvgl_demos 

@@ -12,8 +12,6 @@
 #include <mooncake_log.h>
 #include <hal/hal.h>
 
-using namespace mooncake;
-
 static const std::string _tag = "JS";
 
 /* -------------------------------------------------------------------------- */

@@ -16,8 +16,6 @@
 #include <memory>
 #include <shared/shared.h>
 
-using namespace mooncake;
-
 static const std::string _tag = "BlePython";
 
 static void _ble_python_daemon()

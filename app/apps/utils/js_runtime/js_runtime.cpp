@@ -17,7 +17,6 @@
 
 using namespace js_runtime;
 using namespace js_binding;
-using namespace mooncake;
 using namespace widget;
 
 static const std::string _tag = "JsRuntime";

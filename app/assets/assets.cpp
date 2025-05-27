@@ -12,8 +12,6 @@
 #include <mooncake_log.h>
 #include <string>
 
-using namespace mooncake;
-
 static AssetPool::AssetPool_t* _asset_pool = nullptr;
 static const std::string _tag = "Asset";
 
