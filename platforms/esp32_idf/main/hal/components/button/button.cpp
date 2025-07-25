@@ -13,8 +13,6 @@
 #include <Arduino.h>
 #include <mooncake_log.h>
 
-using namespace mooncake;
-
 void ButtonArduino::init()
 {
     mclog::tagInfo("btn", "init");

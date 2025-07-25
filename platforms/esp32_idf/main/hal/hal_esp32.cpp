@@ -28,8 +28,6 @@ extern "C" {
 #include <lvgl.h>
 #include <esp_timer.h>
 
-using namespace mooncake;
-
 // 组件实例创建和杂项初始化
 void HalEsp32::init()
 {

@@ -7,4 +7,5 @@ managed_components
 /components
 /output
 
+sdkconfig
 sdkconfig.old

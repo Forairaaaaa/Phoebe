@@ -14,8 +14,6 @@
 #include <mooncake_log.h>
 #include <mutex>
 
-using namespace mooncake;
-
 static const char* _tag = "SysCtrl";
 
 // 看门狗线程

@@ -14,8 +14,6 @@
 #include <Arduino.h>
 #include <mooncake_log.h>
 
-using namespace mooncake;
-
 static const char* _tag = "haptic";
 
 HapticEngineDRV2605L::HapticEngineDRV2605L()

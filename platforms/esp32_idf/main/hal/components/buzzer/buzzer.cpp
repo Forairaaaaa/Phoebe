@@ -16,8 +16,6 @@
 #include <Arduino.h>
 #include <mooncake_log.h>
 
-using namespace mooncake;
-
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35

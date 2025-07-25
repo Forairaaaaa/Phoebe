@@ -16,8 +16,6 @@
 #include <mooncake_log.h>
 #include <mutex>
 
-using namespace mooncake;
-
 static const char* _tag = "BatMon";
 
 struct _Data_t {

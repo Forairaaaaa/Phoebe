@@ -19,8 +19,6 @@
 #include "components/utils/Adafruit_DRV2605/Adafruit_DRV2605.h"
 #include "components/utils/Adafruit_MAX1704X/Adafruit_MAX1704X.h"
 
-using namespace mooncake;
-
 void HalEsp32::hal_test()
 {
     /* ---------------------------------- Test ---------------------------------- */
